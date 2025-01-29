@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Article Generator</h1>
+        <textarea id="inputArea" placeholder="Enter topic and basic information here..."></textarea>
+        <button id="generateButton" class="purple-button">Generate Article</button>
+        <textarea id="outputArea" placeholder="Generated article will appear here..."></textarea>
+        <button id="downloadButton" class="purple-button">Download as TXT</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
