@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+button.purple-button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button.purple-button:hover {
+    background-color: darkviolet;
+}
